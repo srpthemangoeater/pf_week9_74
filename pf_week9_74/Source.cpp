@@ -2,11 +2,11 @@
 #include <stdio.h>
 int main()
 {
-	int a, b;
-	scanf_s("%d %d", &a, &b);
-	a = a + b;
-	b = a - b;
-	a = a - b;
-	printf("%d %d", a, b);
+	int x, y;
+	scanf_s("%d %d", &x, &y);
+	x = x + y;
+	y = x - y;
+	x = x - y;
+	printf("%d %d", x, y);
 	return 0;
 }
